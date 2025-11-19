@@ -6,6 +6,7 @@ import viteLogo from "/vite.svg";
 import cloudflareLogo from "./assets/Cloudflare_Logo.svg";
 import honoLogo from "./assets/hono.svg";
 import HelloWorld from "./HelloWorld.tsx";
+import Calculator from "./Calculator.tsx";
 import "./App.css";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       </div>
       <h1>Vite + React + Hono + Cloudflare. HELLO WORLD TEST</h1>
       <HelloWorld />
+      <Calculator />
       <div className="card">
         <button
           onClick={() => setCount((count) => count + 1)}
