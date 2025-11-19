@@ -11,8 +11,8 @@ function Home() {
           padding: "40px 80px",
           fontSize: "48px",
           cursor: "pointer",
-          backgroundColor: "#4CAF50",
-          color: "white",
+          backgroundColor: "#8dc43d",
+          color: "black",
           border: "none",
           borderRadius: "10px"
         }}>
