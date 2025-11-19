@@ -5,6 +5,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import cloudflareLogo from "./assets/Cloudflare_Logo.svg";
 import honoLogo from "./assets/hono.svg";
+import HelloWorld from "./HelloWorld.tsx";
 import "./App.css";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React + Hono + Cloudflare. HELLO WORLD TEST</h1>
+      <HelloWorld />
       <div className="card">
         <button
           onClick={() => setCount((count) => count + 1)}
