@@ -14,8 +14,8 @@ a{color:#0000ee;text-decoration:underline} a:visited{color:#551a8b}
 .page{max-width:760px}
 .blink{animation:blink 1s steps(1) infinite} @keyframes blink{50%{visibility:hidden}}
 .marquee{overflow:hidden;white-space:nowrap;border:2px inset #fff;background:#000;color:#0f0;font-family:"Courier New",monospace;padding:2px 0}
-.marquee span{display:inline-block;padding-left:100%;animation:scroll 18s linear infinite}
-@keyframes scroll{to{transform:translateX(-100%)}}
+.marquee span{display:inline-block;padding-left:0;animation:scroll 22s linear infinite}
+@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
 @media (prefers-reduced-motion:reduce){.blink,.marquee span{animation:none;padding-left:0}}
 .counter{font-family:"Courier New",monospace;background:#000;color:#f00;padding:1px 4px;letter-spacing:3px;border:2px inset #fff}
 .uc{display:inline-flex;align-items:center;gap:8px;background:#ffff00;border:3px solid #000;padding:4px 10px;font-weight:bold}
@@ -35,7 +35,7 @@ pre.dos{font-family:"Courier New",Courier,monospace;font-size:14px;line-height:1
 <div class="marquee"><span>*** Welcome to my corner of the Information Superhighway! *** This is untrustworthy.systems, not to be confused with trustworthy.systems ***</span></div>
 
 <hr>
-<p>[ <a href="#about">About</a> | <a href="#research">Research</a> | <a href="#publications">Publications</a> | <a href="#projects">Projects</a> | <a href="#teaching">Teaching &amp; Education</a> | <a href="#contact">Contact</a> ]</p>
+<p>[ <a href="#about">About</a> | <a href="#research">Research</a> | <a href="#publications">Publications</a> | <a href="#projects">Projects</a> | <a href="#teaching">Teaching &amp; Education</a> | <a href="#cv">CV &amp; Credentials</a> | <a href="#contact">Contact</a> ]</p>
 <hr>
 
 <h2 id="about">About Me</h2>
@@ -84,10 +84,20 @@ pre.dos{font-family:"Courier New",Courier,monospace;font-size:14px;line-height:1
 </ul>
 
 <hr>
+<h2 id="cv">CV &amp; Credentials</h2>
+<h3>Curriculum Vitae</h3>
+<p><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='20'%3E%3Cpath d='M1 1h10l4 4v14H1z' fill='%23fff' stroke='%23000'/%3E%3Cpath d='M3 9h10M3 12h10M3 15h7' stroke='%23000'/%3E%3C/svg%3E" width="16" height="20" alt=""> <a href="/cv.pdf"><b>Download my CV (PDF)</b></a> <small>(also at <a href="https://zhewen.dev/resume/resume.pdf">zhewen.dev</a>)</small></p>
+<h3>Testamur</h3>
+<p>Bachelor of Advanced Computer Science (Honours), with Honours Class 1 and The University Medal in Computer Science. Conferred by UNSW Sydney, 29 January 2026.</p>
+<p><a href="/testamur.png"><img src="/testamur.png" width="240" alt="UNSW testamur: Zhewen Shen, Bachelor of Advanced Computer Science (Honours) with Honours Class 1 and The University Medal in Computer Science" style="border:3px ridge #808080;background:#fff"></a><br>
+<small>[<a href="/testamur.png">view full size</a>] [<a href="/testamur.pdf">PDF</a>] &mdash; a copy for display; the official digitally signed record is held on <a href="https://www.myequals.edu.au/">My eQuals</a>.</small></p>
+
+<hr>
 <h2 id="contact">Contact</h2>
 <ul>
 <li>GitHub: <a href="https://github.com/zhewenshen">github.com/zhewenshen</a></li>
 <li>LinkedIn: <a href="https://www.linkedin.com/in/zhewenshen/">linkedin.com/in/zhewenshen</a></li>
+<li>Email: <a href="mailto:zhewen.shen@outlook.com">zhewen.shen@outlook.com</a></li>
 <li>My modern website: <a href="https://zhewen.dev/">zhewen.dev</a></li>
 </ul>
 
@@ -103,7 +113,7 @@ pre.dos{font-family:"Courier New",Courier,monospace;font-size:14px;line-height:1
 </pre>
 <p>You are visitor number <span class="counter">000042</span><br><small>(this counter is not real. it has said 42 since 1996.)</small></p>
 <p><small>Best viewed in Netscape Navigator 4.0 at 800x600.<br>
-Last updated: October 25, 2026</small></p>
+Last updated: November 7, 2026</small></p>
 </center>
 </div>
 </body>
